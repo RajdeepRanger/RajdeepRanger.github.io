@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" href="c.png">
+        <title> C </title>  
+    </head>
+    <body>
+        <h1> Code of my project on fibonaci series </h1>
+        #include <stdio.h>
+            long fib(int n) { <br>
+                if (n<=1) {<br>
+                    return n;<br>
+                }<br>
+                else return (fib(n-1) + fib(n-2));<br>
+            }<br>
+            int main() {<br>
+                int j;<br>
+                printf("enter a no. \n");<br>
+                scanf("%d",&j);<br>
+                for(int i=0;i<j;i++) {<br>
+                    printf("%d\n",fib(i));<br>
+                }<br>
+            }<br>
+    </body>
+</html>
+
