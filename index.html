@@ -1,194 +1,212 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width-device-width, initial-scale=1.0">
-        <style>
-            table, th, td {
-               border: 1px solid black;
-            }
-         </style>
-        <link rel="icon" type="image/png" href="carnage.jpg">
-        <title> Biography </title>  
-    </head>
-    <body>
-        <h1> Game 111</h1>
-        <h2> Lab Assignment 1.</h2>
-        <img src="MyPic.jpg" title="Its me, yes" alt="my photo" >
-        <H1> Table of content</H1>
-        
-        <table>
-            <tr>
-                <th> S.no.</th>
-                <th> Content</th>
-            </tr>
-            <tr>
-                <td>1.</td>
-                <td><a href="#bio">About Me</a></td>
-            </tr>
-            <tr>
-                <td>2.</td>
-                <td><a href="#hobby">Hobby</a></td>
-            </tr>
-            <tr>
-                <td>3.</td>
-                <td><a href="#Edu">Education</a></td>
-            </tr>
-            <tr>
-                <td>4.</td>
-                <td><a href="#port">Portfolio</a></td>
-            </tr>
-            <tr>
-                <td> 5.</td>
-                <td><a href="#exp">Work Experience</a></td>
-            </tr>
-            <tr>
-                <td>6.</td>
-                <td><a href="#Resume">Resume</a></td>
-            </tr>
-            <tr>
-                <td>7.</td>
-                <td><a href="#Blog">Blog</a></td>
-            </tr>
-            <tr>
-                <td>8.</td>
-                <td><a href="#Test">Testimonials</a></td>
-            </tr>
-            <tr>
-                <td>9.</td>
-                <td><a href="#contact">Contact</a></td>
-            </tr>
-        </table>
-        <hr>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <style>
+        h1 {
+        color: rgba(138, 81, 6, 0.84);
+        font-size: 42px;
+        font-family: 'Times New Roman', Times, serif;
+        }
+        h2 {
+        color: rgba(21, 92, 15, 0.84);
+        font-size: 42px;
+        font-family: 'Times New Roman', Times, serif;
+        }
+        </style>
+    <link rel="icon" type="image/png" href="carnage.jpg" >
+    <link rel="stylesheet" href="style.css">
+    <title> Biography </title>
+</head>
+<body>
+    <h1> Game 111</h1>
+    <h2> Lab Assignment 1.</h2>
+    <img  src="MyPic.jpg" class="photo" title="Its me, yes" alt="my photo" >
+    <h2> Table of content</h2>
 
-        <h2 id="bio"> ABOUT ME </h2>
-<pre>    Rajdeep Singh and I am a gaming enthusiast. 
-    I was born and brought up in a nuclear family of Punjab, India, and have come to Canada to pursue the Game Programming Course, which would enable me to make a multi-billion game. 
-    Apart from video games, I have keen interest in playing table tennis. I was a district champion of Table-Tennis, but unfortunatly Covid came,
-    which resisted me from practicing as I only had one place to practice and that was school, 
-    but school were shut down. So, when schools were fully reopened, 
-    I had graduated and didn't had access to practice in school.
-    But now as I have joined SLC for my studies, 
-    there is a table for ping pong and I can play and practice as much as I want to regain my form I had lost during covid.
-    Moreover, I have to stay healthy during my stay here in Canada because <q><i>Winter is Coming</i></q>.</pre>
-         
-        
-        <br>
-             <hr>
-        <h2 id="hobby"> HOBBIES </h2>
-         <dl> 
-            <dt> Playing video games</dt> 
-            <dd> GTA</dd>
-            <dd> RDR</dd>
-            <dd> Assassin's Creed</dd>
-           <dt> Playing physical games</dt>
-            <dd> Cricket</dd>
-            <dd> Table-Tennis</dd>
-            <dd> Badminton</dd>
-            <dt> Reading Books</dt>
-            <dd> Harry Potter</dd>
-            <dd> A Song of Ice and Fire</dd>
-            <dt> Watching movies</dt>
-            <dd> Acton</dd>
-            <dd> Adventure</dd>
-            <dd> Sci-Fi</dd>
-        </dl>  <hr>
-        <h2 id="Edu">Education</h2>
-       <p> I have completed my senior secondary education from the local school of my city, named "Bhartiya vidya Mandir". <br>
+    <table>
+        <tr>
+            <th> S.no.</th>
+            <th> Content</th>
+        </tr>
+        <tr>
+            <td>1.</td>
+            <td><a href="#bio">About Me</a></td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td><a href="#hobby">Hobby</a></td>
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td><a href="#Edu">Education</a></td>
+        </tr>
+        <tr>
+            <td>4.</td>
+            <td><a href="#port">Portfolio</a></td>
+        </tr>
+        <tr>
+            <td> 5.</td>
+            <td><a href="#exp">Work Experience</a></td>
+        </tr>
+        <tr>
+            <td>6.</td>
+            <td><a href="#Resume">Resume</a></td>
+        </tr>
+        <tr>
+            <td>7.</td>
+            <td><a href="#Blog">Blog</a></td>
+        </tr>
+        <tr>
+            <td>8.</td>
+            <td><a href="#Test">Testimonials</a></td>
+        </tr>
+        <tr>
+            <td>9.</td>
+            <td><a href="#contact">Contact</a></td>
+        </tr>
+    </table>
+    <hr>
+
+    <div class=“personal”> <h2 id="bio"> ABOUT ME </h2>
+ <p>Rajdeep Singh and I am a gaming enthusiast. 
+    I was born and brought up in a nuclear family of Punjab, India, and have come to Canada to pursue the Game Programming Course, which would enable me to make a multi-billion game. <br>
+    Apart from video games, I have keen interest in playing table tennis. I was a district champion of Table-Tennis, but unfortunatly Covid came,<br>
+    which resisted me from practicing as I only had one place to practice and that was school, <br>
+    but school were shut down. So, when schools were fully reopened, <br>
+    I had graduated and didn't had access to practice in school.<br>
+    But now as I have joined SLC for my studies, <br>
+    there is a table for ping pong and I can play and practice as much as I want to regain my form I had lost during covid.<br>
+    Moreover, I have to stay healthy during my stay here in Canada because <q><i>Winter is Coming</i></q>.</p>
+
+
+    <br>
+    <hr>
+    <h2 id="hobby"> HOBBIES </h2>
+    <p><dl class="list">
+        <dt> Playing video games</dt>
+        <dd> GTA</dd>
+        <dd> RDR</dd>
+        <dd> Assassin's Creed</dd> <hr style="background-color: rgb(181, 38, 38); width: 20%; height: 2px;">
+        <dt> Playing physical games</dt>
+        <dd> Cricket</dd>
+        <dd> Table-Tennis</dd>
+        <dd> Badminton</dd> <hr style="background-color: rgb(181, 38, 38); width: 20%; height: 2px;">
+        <dt> Reading Books</dt>
+        <dd> Harry Potter</dd>
+        <dd> A Song of Ice and Fire</dd> <hr style="background-color: rgb(181, 38, 38); width: 20%; height: 2px;">
+        <dt> Watching movies</dt>
+        <dd> Acton</dd>
+        <dd> Adventure</dd>
+        <dd> Sci-Fi</dd>
+    </dl> </p> <hr>
+    
+    <h2 id="Blog"> Blog</h2>
+    <a id="bloog" href="https://blog.playstation.com/tag/red-dead-redemption-2/"> Link to a blog I find amusing.</a> <hr>
+ </div>
+    <div class=“professional”> <h2 id="Edu">Education</h2>
+    <p>
+        I have completed my senior secondary education from the local school of my city, named "Bhartiya vidya Mandir". <br>
         Subjects I had taken were Physics, Chemistry, Mathematics and Information Practices.<br>
         Other than that, I have completed various non-credit specialization courses through "Coursera" in my free time after I completed my senior secondary studies. <br>
-        I have mentioned them in brief below:- <br></p>
-        
-        
-        <table>
-            <tr>
-                <th> Provider</th>
-                <th> Course</th>
-                <th> Verification</th>
-            </tr>
-            <tr>
-                <td rowspan="3"> University of California</td>
-                <td>C part 1</td>
-                <td><a href="https://coursera.org/verify/VUB7KWBDJFUW">Click this link</a></td>
-            </tr>
-            <tr>
-                <td>C part 2</td>
-                <td><a href="https://coursera.org/verify/HF4P9VUYAD4Q">Click this link</a></td>
-            </tr>
-            <tr>
-                <td>C++ Programming</td>
-                <td><a href="https://coursera.org/verify/WFLT6ZUJHLDX">Click this link</a></td>
-            </tr>
-            <tr>
-                <td> University of Michigan</td>
-                <td> Introduction to HTML5</td>
-                <td><a href="https://coursera.org/verify/SG9LKW7JLGBK">Click this link</a> </td>
-            </tr>
-            <tr>
-                <td rowspan="3"> Microsoft</td>
-                <td>Word</td>
-                <td><a href="https://coursera.org/verify/YDQ6TAGGC3YE">Click this link</a></td>
-            </tr>
-            <tr>
-                <td> excel</td>
-                <td><a href="https://coursera.org/verify/D34A8EMLAKJ6">Click this link</a></td>
-            </tr>
-            <tr>
-                <td> powerpoint </td>
-                <td><a href="https://coursera.org/verify/6VQAG48QEJDF">Click this link</a></td>
-            </tr>
-        </table> <hr>
-
-        <h2 id="port"> My Portfolio </h2>
-        I have basically learnt 4 things till now, whose samples I will show in following links : <br> <br> <br>
-
-        <img src="imagemap.png"  title="Type the area of map you want to see" alt="My work till now" usemap="#portfolio" >
-        <map name="portfolio">
-            <area shape="rect" coords="0,0,630,340" alt="c++" href="portfolio_c++.html">
-            <area shape="rect" coords="635,0,1280,340" alt="pixel_art" href="portfolio_px.html">
-            <area shape="rect" coords="0,344,630,720" alt="C" href="portfolio_c.html">
-            <area shape="rect" coords="635,348,1280,720" alt="javascript" href="portfolio_js.html"> </map> <hr>
-
-        <h2  id="exp"> Companies Worked </h2>
-        <ol>
-           <li>Upshot Educationals<ol type="a">
-         <li>Language Trainer</li>
-          <li>Facility Manager</li></ol></li>
-           <li>Janta Karyana Store <ol type="a">
-           <li>Owner'son</li>
-          <li>Cash Handling</li></ol></li>
-        </ol><hr>
-
-        <h2 id="Resume"> My Resume</h2>
-        As I am an international student here in Canada, It is important for me to find a part-time job.<br>
-        Because of this, I made a resume. Have a look:-<br>
-        <a href="Resume__Rajdeep__Singh.pdf">The resume</a> <hr>
-
-        <h2 id="Blog"> Blog</h2>
-        <a href="https://blog.playstation.com/tag/red-dead-redemption-2/"> Link to a blog I find amusing.</a> <hr>
-
-        <h2 id="Test"> Testimonials </h2>
-
-        <blockquote><q>He is very hardworking guy
-             and had contributed a lot
-              in the success of our institute.</q> </blockquote>
-              <footer><i> Sabreena Nayyar, Upshot Educationals</i></footer>
+        I have mentioned them in brief below:- <br>
+    </p>
 
 
-        <h2 id="contact"> Contact</h2>
-        <img src="call.png" height="16"  alt="call" >
-        <a href="callto:3435589964">3435589964</a> <br><br>
-        <img src="mail.png" height="16"  alt="email" >
-        <a href="mailto:rajdeepsingh16@student.sl.on.com">rajdeepsingh16@student.sl.on.ca</a> <br><br>
-        <img src="home.png" height="16"  alt="home" >
-        544, Marlborough Street, Cornwall
+    <table>
+        <tr>
+            <th> Provider</th>
+            <th> Course</th>
+            <th> Verification</th>
+        </tr>
+        <tr>
+            <td style="background-color: rgb(111, 126, 195);" rowspan="3"> University of California</td>
+            <td>C part 1</td>
+            <td><a href="https://coursera.org/verify/VUB7KWBDJFUW">Click this link</a></td>
+        </tr>
+        <tr>
+            <td>C part 2</td>
+            <td><a href="https://coursera.org/verify/HF4P9VUYAD4Q">Click this link</a></td>
+        </tr>
+        <tr>
+            <td>C++ Programming</td>
+            <td><a href="https://coursera.org/verify/WFLT6ZUJHLDX">Click this link</a></td>
+        </tr>
+        <tr>
+            <td> University of Michigan</td>
+            <td> Introduction to HTML5</td>
+            <td><a href="https://coursera.org/verify/SG9LKW7JLGBK">Click this link</a> </td>
+        </tr>
+        <tr>
+            <td style="background-color: rgb(111, 126, 195);" rowspan="3"> Microsoft</td>
+            <td>Word</td>
+            <td><a href="https://coursera.org/verify/YDQ6TAGGC3YE">Click this link</a></td>
+        </tr>
+        <tr>
+            <td> excel</td>
+            <td><a href="https://coursera.org/verify/D34A8EMLAKJ6">Click this link</a></td>
+        </tr>
+        <tr>
+            <td> powerpoint </td>
+            <td><a href="https://coursera.org/verify/6VQAG48QEJDF">Click this link</a></td>
+        </tr>
+    </table> <hr>
+
+    <h2 id="port"> My Portfolio </h2>
+    <p>I have basically learnt 4 things till now, whose samples I will show in following links : </p><br> <br> <br>
+    <img style="border: 100px;" class="photo" src="imagemap.png" title="Type the area of map you want to see" alt="My work till now" usemap="#portfolio" >
+    <map name="portfolio">
+        <area shape="rect" coords="0,0,630,340" alt="c++" href="portfolio_c++.html">
+        <area shape="rect" coords="635,0,1280,340" alt="pixel_art" href="portfolio_px.html">
+        <area shape="rect" coords="0,344,630,720" alt="C" href="portfolio_c.html">
+        <area shape="rect" coords="635,348,1280,720" alt="javascript" href="portfolio_js.html">
+    </map> <hr>
+
+    <h2 id="exp"> Companies Worked </h2>
+    <dl>
+        <dt>Upshot Educationals</dt>
+            <dd>Language Trainer</dd>
+            <dd>Facility Manager</dd>
+            <hr style="background-color: rgb(181, 38, 38); width: 20%; height: 2px;">
+        <dt>Janta Karyana Store <dt>
+        <dd>Owner'son</dd>
+        <dd>Cash Handling</dd>
+            </ol>
+        </dl><hr>
+
+    <h2 id="Resume"> My Resume</h2>
+    <p>
+    As I am an international student here in Canada, It is important for me to find a part-time job.<br>
+    Because of this, I made a resume. Have a look:-<br>
+    <a href="Resume__Rajdeep__Singh.pdf">The resume</a></p> <hr>
+
+   
+    <h2 id="Test"> Testimonials </h2>
+
+    <blockquote>
+        <q class="center">He is very hardworking guy
+            and had contributed a lot
+            in the success of our institute.
+        </q>
+    </blockquote>
+    <footer><i> Sabreena Nayyar, Upshot Educationals</i></footer> </p> <hr>
+
+
+    <h2 id="contact"> Contact</h2>
+    <img src="call.png" height="16" alt="call">
+    <a href="callto:911">343*******</a> <br><br>
+    <img src="mail.png" height="16" alt="email">
+    <a href="mailto:rajdeepsingh16@student.sl.on.com">rajdeepsingh16@student.sl.on.ca</a> <br><br>
+    <img src="home.png" height="16" alt="home">
+    544, Somewhere in, Cornwall </div>
 
 
 
-        
 
 
 
-    </body> 
+
+</body>
 </html>
